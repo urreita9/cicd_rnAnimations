@@ -23,7 +23,7 @@ const HomeScreen = ({navigation, route}: Props) => {
   return (
     <SafeAreaView>
       <ScrollView>
-        <Text>Feature 1 FIX</Text>
+        <Text>Feature 1 FIX #1</Text>
         <List data={food} />
         <View style={styles.iconsContainer}>
           {icons?.map(icon => (
